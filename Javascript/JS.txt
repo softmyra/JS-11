@@ -1,0 +1,146 @@
+*methods,data type,operators,functions ye ache se practice karna hai*
+js Defination:-
+a js is high-level,prototype-bases,obect-orianted,multi-paradigm,interpreted,just-in-time compiled,single
+threaded,garbage-collected progamming with first class function programming language.
+
+interpreted in js:- line by line.
+
+single threaded:-
+
+data type:- it is a source of information.
+
+there are two types of data types.
+1)primitive data types.
+2)Non primitive data type/Refrence type.
+
+*primitive data type:-
+1)string---'ABC'---"ABC"---"20"
+2)number--14.6---14
+3)boolean---true OR false 
+4)undefined--- agar var ko assign nahi karoge to wo undifined hoga.
+5)null---
+6)symbol
+
+
+what is diffrece between undefined or null.
+
+ans:-undefined is a not defined and null is a define but value is nothing so that you can define null.
+
+2)Non primitive Data Type/refrence type:-
+1)object:-{key:value}--litrals--var obj={name:"Rehan",address:"XYZ",age:"29"}
+console:--console.log(obj.age)--ans print:-29
+2)ARRAY:-const a=[1,2,3,'a',false,['a,'"b",c],{Name:"xyz"}]
+console.log(a[2]) print as a 3 as per index value.
+destructuting syntax of array:-[data,x]=[a] or {x,y,z}={obj}
+
+*Functios Def:-"A block of code/statment that executes on the certain condition".
+*IMPORTANT FOR INTERVIEW MUST REMEMBER*
+*function declaration:-
+*function expression:-
+*arrow function:-
+
+Declaration:-
+*how to write function:- function functionname(){......}*
+functionname();----function call or invoke
+syntax:-
+function addition(){
+console.log(2+4)}
+
+function Expression:-
+const sub myfunc=function(){
+console.log(10-3)
+}
+call:-
+sub();
+result 7
+
+Arrow Function:-(=>fat arrow or arrow).
+const div =()=>{
+console.log (10/2)
+}
+call:-
+div();
+
+
+
+*Function declaration:- 
+*A function must start with function keyword.
+*We can call this function before initialization or declaration.
+
+*Expression Function:-
+*We Can't use function keyword instead of we can use const or let.
+*We can't call this function before initialization.
+
+*Arrow Function:-
+*Arrow function is a advance function of expression function in Js.
+*We Can't use function keyword instead of we can use const or let.
+*We can't call this function before initialization.
+*We Don't need to explicity use 'This' keyword.
+
+===============================================================================================================================================================================
+Rest Parameters:-
+*A rest parameters allows a function to accept indefinite parameters & store in an array.
+*Rest parameters It must be in the last.
+*It introduce in ES6.
+================================================================================================================================================================================
+JS Day 4 (4/7/22)
+array Method:-
+
+1)POP:--->It returns the last element of your array & it also modifies the original array.
+
+2)PUSH:--->It returns the lenght or updated lenght of the original array & adds given element at the end of your original array.
+
+3)SHIFT:--->Shift method remove and returns of your first array & it also modifies the orginal array.
+
+4)UNSHIFT:--->It Returns the updated lenght of the original array and adds the given element at the start of the orginal array.
+
+5)FIND:---> It Returns the first element where the given condition/logic in the callback function is true,it returns undefined if no,
+           element matches the given condition/logic
+
+6)FINDINDEX:--->It Returns the first element where the given condition/logic in the callback function is true,it returns -1 if no element,
+               matches the given condition/logic
+7)INCLUDES:--->It Returns true if the element exist in the array,otherwise false.
+
+8)INDEXOF:--->It Returns the first index of given element.
+
+9)SOME:--->It Returns true if anyone of the element of an array matches the given condition in its callback funtion,returns false otherwise.
+
+10)EVERY:--->It Returns true if all of the element of an array matches the given condition in its callback function,returns false otherwise.
+
+11)SLICE:--->It Returns a copy/part of the orginal array considering the passes arguments.it can accept upto 2 arguments,first argument is start index,
+            second argument is end index.it includes start indexed value but except end indexed.
+
+12)SPLICE:---> It can accept multiple arguments, however,the first argument will be the start index and the second argument
+              will be the number of element to be removed,the rest arguments will be added in your orginal array.it returns the item,
+              that have been removed and it does modify the original array.
+
+13)Concat:--->It can join two arrays.it will merge the given into the one this method is being applied on.
+
+14)FILTER:--->It Returns a new array filled with elements that pass a test provided in a callback function.
+
+15)MAP:--->It return a new array from calling a function for every array element.map() calls a function once for each element in an array.
+
+16)SORT--->It is used to sort an array in ascending or descending order by passing comparison callback function.
+
+17)REDUCE:--->It always returns a single value from an array.you can pass a callback function which can have atleast two parameters accumulators
+             and current value you can also asign an initial value to tha accumulator by passsing a second argument to the reduce method 
+
+18)REVERSE:--->It returns a reversed array.
+
+19)FROM:--->The array.from() method returns an array from any iterable object.
+
+20)FILL:--->This method is used to fill or replace element on an array.it can accept upto 3 argument,the first argument is the value to be added,
+           second argument is the start index and the third argument is the end box.
+
+21)JOIN:---> It returns a array in as string & joined by comma(",").
+
+22)isARRAY:---> The isArray() method returns true if the veriable passed is an array,otherwise false.
+
+23)TOSTRING:--->The Array.tostring()method returns a string with all arrays values seperated by commas:
+
+14)FOREACH:--->The forEach() method calls the callback function for each element in an array,very similar to map.it doesn't return the response in an array.
+
+***HIGHER ORDER FUNCTION:-->A FUNCTION THAT ACCEPT ANOTHER FUNCTION AS AN ARGUMENT.
+***CALL BACKFUNTION:-->A FUNCTION THAT IS PASSED AS AN ARGUMENT TO ANOTHER FUNCTION.
+
+operators,data type,functions,must practice for upcoming sunday.
