@@ -144,3 +144,16 @@ array Method:-
 ***CALL BACKFUNTION:-->A FUNCTION THAT IS PASSED AS AN ARGUMENT TO ANOTHER FUNCTION.
 
 operators,data type,functions,must practice for upcoming sunday.
+=====================================================================================================================================================================================================
+Js===9/7/2022
+
+STRICT MODE:--> It Will Strictly check the file.
+*used to strictly check the file.
+"use strict"👉 Must be at the top of the page.
+*we can not use verialble before intialization.
+
+** FOR LOOP:--> loop:-cycle rounding while:--> thodi der k liye
+for loop me 3 condition hoti hai.
+1)Initialization
+2)Declaration
+3)Increament or decreament.
